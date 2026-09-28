@@ -359,8 +359,13 @@
         line-height: 22px;
     }
 
-    .text, .list {
+    .text,
+    .list {
         font-size: 14px;
         line-height: 22px;
+    }
+
+    .container {
+        zoom: 85%;
     }
 }

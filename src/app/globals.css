@@ -98,3 +98,10 @@ body {
         overflow-x: hidden;
     }
 }
+
+@media screen and (max-width: 393) {
+    html {
+        zoom: 85%;
+        /* overflow-x: hidden; */
+    }
+}

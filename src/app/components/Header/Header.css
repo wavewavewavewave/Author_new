@@ -47,6 +47,7 @@
         transition: right 0.4s;
         z-index: 1;
     }
+
     .imageBackground {
         position: fixed;
         top: 0;
@@ -57,6 +58,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/colazh.jpg");
     }
 }
+
 /*@media (max-width: 414px) {*/
 
 /*}*/
@@ -99,6 +101,7 @@
 .show-menu {
     right: 0;
 }
+
 .nav__listt {
     display: flex;
     flex-direction: row;
@@ -117,7 +120,9 @@
     padding: 6rem 3rem 0;
     transition: right 0.4s;
 }
+
 @media screen and (min-width: 1150px) {
+
     .nav__toggle,
     .nav__close {
         display: none;
