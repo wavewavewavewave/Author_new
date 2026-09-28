@@ -1,0 +1,366 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrapper {
+    max-width: 1100px;
+    margin: 40px auto 100px auto;
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: custom-font, sans-serif;
+}
+
+.breadcrumbLink {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumbLink:hover {
+    color: #ffffff;
+}
+
+.breadcrumbSeparator {
+    color: #666;
+}
+
+.breadcrumbCurrent {
+    color: #ffffff;
+}
+
+.officialHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 35px;
+}
+
+.companyInfo {
+    font-family: custom-font, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.companyName {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.approvalSign {
+    font-family: custom-font, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cccccc;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.signatureLine {
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 90px;
+    margin: 0 6px;
+    vertical-align: middle;
+}
+
+.headerBlock {
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 35px;
+}
+
+.badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-family: custom-font, sans-serif;
+}
+
+.title {
+    font-family: Bebas, sans-serif;
+    font-size: 54px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: custom-font, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #cccccc;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.cityDate {
+    font-family: custom-font, sans-serif;
+    font-size: 15px;
+    color: #888888;
+}
+
+.section {
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 30px 35px;
+    transition: border-color 0.2s ease;
+}
+
+.section:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.sectionNumber {
+    font-family: Bebas, sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    min-width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.sectionTitle {
+    font-family: custom-font, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    font-family: custom-font, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #cccccc;
+    margin: 0 0 16px 0;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.list {
+    margin: 12px 0 18px 0;
+    padding-left: 24px;
+    font-family: custom-font, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #cccccc;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+}
+
+.subItem {
+    margin-bottom: 16px;
+}
+
+.subItem:last-child {
+    margin-bottom: 0;
+}
+
+.termTitle {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.operatorCard {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-top: 25px;
+}
+
+.operatorCardTitle {
+    font-family: custom-font, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.operatorTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: custom-font, sans-serif;
+    font-size: 15px;
+}
+
+.operatorTable tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.operatorTable tr:last-child {
+    border-bottom: none;
+}
+
+.operatorTable td {
+    padding: 10px 8px;
+    vertical-align: top;
+}
+
+.tableLabel {
+    color: #888888;
+    width: 220px;
+}
+
+.tableValue {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.tableValue a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.tableValue a:hover {
+    color: #aaaaaa;
+}
+
+.actionsBlock {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.backButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #000000;
+    padding: 14px 34px;
+    border-radius: 8px;
+    font-family: custom-font, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.backButton:hover {
+    background: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .officialHeader {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .approvalSign {
+        text-align: left;
+    }
+
+    .sectionTitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section {
+        padding: 22px 20px;
+    }
+
+    .operatorTable td {
+        display: block;
+        padding: 6px 0;
+    }
+
+    .tableLabel {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contentWrapper {
+        padding: 0 16px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .sectionNumber {
+        min-width: 36px;
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+    }
+
+    .sectionTitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .text, .list {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

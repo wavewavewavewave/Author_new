@@ -50,7 +50,7 @@ const ServiceImages = ({imagesArray, marginTop, marginLeft, cat}: any) => {
             <div className={styles.button}>
                 <Button>Заказать</Button>
             </div>
-            {width <= 430 ? (
+            {width <= 480 ? (
                 <div className={styles.contactBlock}>
                     <span className={styles.questionsTitle}>Есть вопросы?</span>
                     <div style={{marginTop: '20px', marginLeft: '-20px'}}>

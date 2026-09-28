@@ -47,9 +47,8 @@
     margin-left: 710px
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .container {
-        /*width: 375px;*/
         min-height: 675px;
         background-color: #000000;
         z-index: 0;
@@ -83,12 +82,52 @@
 
     .imageConnected {
         margin-top: 500px;
-        margin-left: 120px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .imageConnectedStyle {
         width: 200px;
         height: 50px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        /*width: 375px;*/
+        min-height: 675px;
+        background-color: #000000;
+        z-index: 0;
+    }
+
+    .textContainer {
+        left: 37px;
+        margin-top: 15px;
+    }
+
+    .block {
+        margin-left: 0px;
+        margin-top: 290px;
+    }
+
+    .imageCreative {
+        width: 200px;
+        height: min-content;
+    }
+
+    .spanText {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .spanTextDouble {
+        font-size: 50px;
+        line-height: 60px;
     }
 }
 
@@ -124,21 +163,11 @@
         font-size: 50px;
         line-height: 60px;
     }
-
-    .imageConnected {
-        margin-top: 500px;
-        margin-left: 120px;
-    }
-
-    .imageConnectedStyle {
-        width: 200px;
-        height: 50px;
-    }
 }
 
 @media (max-width: 375px) {
     .imageConnected {
-        margin-top: 484px;
+        margin-top: 500px;
     }
 }
 

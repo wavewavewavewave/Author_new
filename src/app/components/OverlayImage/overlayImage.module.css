@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     min-height: 1080px;
+    overflow: hidden;
 }
 
 .image1 {
@@ -42,6 +43,21 @@
 .overlayContent {
     position: relative;
     z-index: 1;
+}
+
+@media (max-width: 480px) {
+    .container {
+        min-height: 852px;
+    }
+    .image1 {
+        height: 852px;
+    }
+    .image2 {
+        height: 852px;
+    }
+    .image2Container {
+        height: 852px;
+    }
 }
 
 @media (max-width: 430px) {

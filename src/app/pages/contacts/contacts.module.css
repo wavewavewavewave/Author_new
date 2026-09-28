@@ -94,6 +94,90 @@
     margin-top: 50px
 }
 
+.privacyLinkBlock {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.privacyLinkText {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 14px;
+    font-family: custom-font, sans-serif;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.privacyLinkText:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .imagesPayment {
+        width: 400px;
+        margin-top: 65px;
+        margin-left: 180px;
+    }
+    .gallery {
+        width: 320px;
+    }
+    .title {
+        width: 180px;
+        font-size: 38px;
+        line-height: 46px;
+        margin-left: 50px;
+    }
+    .text {
+        width: 327px;
+        height: 61px;
+        font-size: 11px;
+        line-height: 13px;
+        margin-left: 50px;
+    }
+    .textContacts {
+        width: 290px;
+        font-size: 43px;
+        line-height: 49px;
+    }
+    .socialsBlock {
+        margin-left: -120px;
+        margin-top: 190px;
+    }
+    .addressBlock {
+        width: 295px;
+        margin-left: 100px;
+        margin-top: -270px;
+    }
+    .address {
+        font-size: 45px;
+        line-height: 49px;
+    }
+    .contactBlockPosition {
+        margin-top: 240px;
+        right: 12%;
+    }
+    .mainBlock {
+        margin-top: 0;
+    }
+    .textPosition {
+        margin-left: 25px;
+    }
+    .contactBlock {
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 100px;
+        margin-top: 400px;
+    }
+    .socialIcon {
+        width: 110px;
+        height: 110px;
+    }
+    .textBlock {
+        margin-left: 10px;
+    }
+}
+
 @media (max-width: 430px) {
     .imagesPayment {
         width: 400px;

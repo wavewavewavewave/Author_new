@@ -62,9 +62,60 @@
     height: 300px;
 }
 
+@media (max-width: 480px) {
+    .boxes_block {
+        margin-top: -15px;
+        justify-content: center;
+    }
+
+    .imageBlock {
+        width: 160px;
+        height: 140px
+    }
+
+    .box {
+        width: 160px;
+        height: 140px;
+    }
+
+    .imageBlockEnter {
+        width: 160px;
+        height: 140px
+    }
+
+    .text {
+        width: 300px;
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .image_style {
+        width: 21px;
+        height: 18px;
+    }
+
+    .buttonSocial {
+        background-color: transparent;
+        border: none;
+        margin-left: -13px;
+    }
+
+    .questionsTitle {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+        color: rgba(123, 75, 236, 1)
+    }
+    .contactBlock {
+        margin-top: 90px;
+        margin-left: 185px;
+    }
+}
+
 @media (max-width: 430px) {
     .boxes_block {
         margin-top: -15px;
+        justify-content: center;
     }
 
     .imageBlock {
@@ -117,18 +168,18 @@
     }
 
     .imageBlock {
-        width: 159px;
-        height: 140px
+        width: 140px;
+        height: 130px
     }
 
     .box {
-        width: 159px;
-        height: 140px;
+        width: 140px;
+        height: 130px;
     }
 
     .imageBlockEnter {
-        width: 159px;
-        height: 140px
+        width: 140px;
+        height: 130px
     }
 
     .text {
@@ -145,7 +196,7 @@
     .buttonSocial {
         background-color: transparent;
         border: none;
-        margin-left: -25px;
+        margin-left: -13px;
     }
 
     .questionsTitle {
@@ -156,24 +207,24 @@
     }
     .contactBlock {
         margin-top: 90px;
-        margin-left: 185px;
+        margin-left: 160px;
     }
 }
 
 @media (max-width: 412px) {
     .imageBlock {
-        width: 160px;
-        height: 140px
+        width: 140px;
+        height: 130px
     }
 
     .box {
-        width: 160px;
-        height: 140px;
+        width: 140px;
+        height: 130px;
     }
 
     .imageBlockEnter {
-        width: 160px;
-        height: 140px
+        width: 140px;
+        height: 130px
     }
 }
 
@@ -199,21 +250,21 @@
 
 @media (max-width: 375px) {
     .imageBlock {
-        width: 145px;
-        height: 130px
+        width: 130px;
+        height: 120px
     }
 
     .box {
-        width: 145px;
-        height: 130px;
+        width: 130px;
+        height: 120px;
     }
 
     .imageBlockEnter {
-        width: 145px;
-        height: 130px
+        width: 130px;
+        height: 120px
     }
     .contactBlock {
-        margin-left: 160px;
+        margin-left: 140px;
     }
 }
 

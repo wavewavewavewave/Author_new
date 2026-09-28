@@ -39,12 +39,10 @@ export const SimpleSlider = () => {
         <div className={styles.container}>
             <Slider {...settings}>
                 {image_slider_arr.map((item) => (
-                    <>
-                        <div key={item.id} className={styles.image}>
-                            <Image src={item.image} alt={item.alt} className={styles.image}
-                                   style={{objectFit: 'contain'}}/>
-                        </div>
-                    </>
+                    <div key={item.id} className={styles.image}>
+                        <Image src={item.image} alt={item.alt} className={styles.image}
+                               style={{objectFit: 'contain'}}/>
+                    </div>
                 ))}
             </Slider>
         </div>

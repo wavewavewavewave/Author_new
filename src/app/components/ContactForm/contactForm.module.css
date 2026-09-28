@@ -1,6 +1,8 @@
 .form {
     width: 606px;
-    height: 486px;
+    min-height: 486px;
+    height: auto;
+    padding-bottom: 25px;
     background-color: white;
     top: 181px;
     left: 1220px;
@@ -15,6 +17,7 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    min-height: 300px;
     width: 100%;
     animation: success-show 0.5s cubic-bezier(0.25, 0.75, 0.5, 1.25);
 }
@@ -42,11 +45,52 @@
     margin-left: 50px;
     font-family: custom-font;
     font-size: 20px;
-
 }
 
 .form label, .form input {
-    margin-bottom: 10px; /* Добавляет отступ снизу каждого label и input */
+    margin-bottom: 10px;
+}
+
+.consentBlock {
+    margin-left: 50px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    width: 491px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkboxInput {
+    margin-top: 2px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    accent-color: #000000;
+    flex-shrink: 0;
+}
+
+.consentText {
+    font-family: custom-font, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.privacyLink {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.privacyLink:hover {
+    color: #555555;
 }
 
 .button {
@@ -64,25 +108,34 @@
     width: 187px;
     height: 46px;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 22px;
     border-width: 2px 0;
     border-style: solid none;
     border-color: black;
     border-radius: 6px;
 }
 
+.button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    background-color: #666666;
+    border-color: #666666;
+}
+
 .label {
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-weight: 400;
     font-size: 18px;
     line-height: 17px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .form {
         width: 380px;
-        height: 320px;
+        min-height: 330px;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .input {
@@ -99,6 +152,70 @@
         line-height: 13px;
     }
 
+    .consentBlock {
+        margin-left: 30px;
+        margin-top: 8px;
+        width: 315px;
+    }
+
+    .checkboxInput {
+        width: 14px;
+        height: 14px;
+        margin-top: 2px;
+    }
+
+    .consentText {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .button {
+        width: 184px;
+        height: 45px;
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .form {
+        width: 380px;
+        min-height: 330px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .input {
+        width: 315px;
+        font-size: 11px;
+        margin-left: 30px;
+    }
+
+    .label {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .consentBlock {
+        margin-left: 30px;
+        margin-top: 8px;
+        width: 315px;
+    }
+
+    .checkboxInput {
+        width: 14px;
+        height: 14px;
+        margin-top: 2px;
+    }
+
+    .consentText {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
     .button {
         width: 184px;
         height: 45px;
@@ -110,7 +227,9 @@
 @media (max-width: 414px) {
     .form {
         width: 332px;
-        height: 300px;
+        min-height: 315px;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .input {
@@ -125,6 +244,23 @@
         font-weight: 400;
         font-size: 11px;
         line-height: 13px;
+    }
+
+    .consentBlock {
+        margin-left: 30px;
+        margin-top: 8px;
+        width: 262px;
+    }
+
+    .checkboxInput {
+        width: 13px;
+        height: 13px;
+        margin-top: 1px;
+    }
+
+    .consentText {
+        font-size: 9.5px;
+        line-height: 12px;
     }
 
     .button {
@@ -138,7 +274,9 @@
 @media (max-width: 375px) {
     .form {
         width: 332px;
-        height: 300px;
+        min-height: 315px;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .input {
@@ -153,6 +291,23 @@
         font-weight: 400;
         font-size: 11px;
         line-height: 13px;
+    }
+
+    .consentBlock {
+        margin-left: 30px;
+        margin-top: 8px;
+        width: 262px;
+    }
+
+    .checkboxInput {
+        width: 13px;
+        height: 13px;
+        margin-top: 1px;
+    }
+
+    .consentText {
+        font-size: 9.5px;
+        line-height: 12px;
     }
 
     .button {

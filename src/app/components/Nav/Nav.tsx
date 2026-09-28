@@ -26,8 +26,8 @@ const Nav = ({services, clientPage, contactsPage}: any) => {
             {nav_array.map((item, index) => (
                     <li key={item.id}>
                         <Link className={'nav__link'}
-                           href={width <= 430 && index === 4 ? 'tel:+375444966866' : item.href}
-                           style={width <= 430 ? {color: 'white'} : services === true ? {color: 'black'} : {color: 'white'}}
+                           href={width <= 480 && index === 4 ? 'tel:+375444966866' : item.href}
+                           style={width <= 480 ? {color: 'white'} : services === true ? {color: 'black'} : {color: 'white'}}
                         >
                             {item.id === 4 ?
                                 <Image

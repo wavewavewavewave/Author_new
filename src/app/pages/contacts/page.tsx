@@ -50,6 +50,11 @@ const Contacts = () => {
                 <div className={styles.gallery}>
                     <Image src={payments} alt={'Виды оплат'} className={styles.imagesPayment}/>
                 </div>
+                <div className={styles.privacyLinkBlock}>
+                    <a href="/pages/privacy" className={styles.privacyLinkText}>
+                        Политика в отношении обработки персональных данных
+                    </a>
+                </div>
             </OverlayImage>
         </>
     );
