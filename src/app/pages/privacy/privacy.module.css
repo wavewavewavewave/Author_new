@@ -337,6 +337,10 @@
         margin-bottom: 60px;
     }
 
+    .headerBlock {
+        margin-left: 25px;
+    }
+
     .title {
         font-size: 30px;
         line-height: 34px;
