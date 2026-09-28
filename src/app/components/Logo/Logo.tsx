@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Image from "next/image";
 import logo from '../../assets/logo.svg'
 import color_logo from '../../assets/color_logo.svg'
+import Link from 'next/link';
 import './Logo.css'
 
-const Logo = ({services, clientPage}: any) => {
+const Logo = ({ services, clientPage }: any) => {
     const [mouseEnter, setMouseEnter] = useState(false)
 
     const handleMouseEnter = () => {
@@ -16,13 +17,13 @@ const Logo = ({services, clientPage}: any) => {
     };
     return (
         <>
-            <a className={'nav__logo'} href={'/'}>
+            <Link className={'nav__logo'} href={'/'}>
                 <Image src={services || clientPage || mouseEnter === true ? color_logo : logo}
-                       onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className={'style_logo'}
-                       id={'logo'}
-                       alt={'Logo'}
+                    onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className={'style_logo'}
+                    id={'logo'}
+                    alt={'Logo'}
                 />
-            </a>
+            </Link>
         </>
     );
 };
