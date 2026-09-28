@@ -225,7 +225,7 @@
 
     .actionPrompt {
         position: absolute;
-        right: clamp(100px, 28vw, 140px);
+        right: clamp(100px, 22vw, 140px);
         top: 2px;
         display: flex;
         flex-direction: column;

@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
 }
+
 .mainText {
     font-weight: 400;
     font-size: 89px;
@@ -10,23 +11,29 @@
     display: flex;
     justify-content: center;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-left: 120px;
 }
+
 .item {
     flex: 0 1 calc(100% / 5);
 }
+
 .itemBox {
     width: 250px;
     height: 250px;
     text-align: center;
 }
+
 .itemBox img {
-    width: 100%; /* Задаем фиксированную ширину */
-    height: 100%; /* Задаем фиксированную высоту */
+    width: 100%;
+    /* Задаем фиксированную ширину */
+    height: 100%;
+    /* Задаем фиксированную высоту */
 }
 
 .item:nth-child(7) {
@@ -38,16 +45,20 @@
         font-size: 27px;
         line-height: 33px;
     }
+
     .item {
         flex: 0 1 calc(100%/3);
     }
+
     .itemBox {
         width: 150px;
         height: 120px;
     }
+
     .gallery {
         margin-left: 16px;
     }
+
     .item:nth-child(7) {
         margin-top: 15px;
     }
@@ -58,16 +69,20 @@
         font-size: 27px;
         line-height: 33px;
     }
+
     .item {
         flex: 0 1 calc(100%/3);
     }
+
     .itemBox {
         width: 150px;
         height: 120px;
     }
+
     .gallery {
         margin-left: 16px;
     }
+
     .item:nth-child(7) {
         margin-top: 15px;
     }
@@ -78,29 +93,35 @@
         font-size: 27px;
         line-height: 33px;
     }
+
     .item {
-            flex: 0 1 calc(100%/3);
+        flex: 0 1 calc(100%/3);
     }
+
     .itemBox {
         width: 150px;
         height: 120px;
     }
+
     .gallery {
         margin-left: 16px;
     }
+
     .item:nth-child(7) {
         margin-top: 15px;
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 393px) {
     .itemBox {
         width: 140px;
         height: 120px;
     }
+
     .item {
         flex: 0 1 calc(300px/3);
     }
+
     .gallery {
         align-items: center;
         margin-left: 30px;
@@ -112,9 +133,11 @@
         width: 130px;
         height: 120px;
     }
+
     .item {
         flex: 0 1 calc(300px/3);
     }
+
     .gallery {
         align-items: center;
         margin-left: 30px;
