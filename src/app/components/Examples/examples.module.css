@@ -47,6 +47,73 @@
     margin-left: 710px
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .container {
+        min-height: auto;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textContainer {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .textBlock {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .spanText {
+        width: 100%;
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .block {
+        margin-left: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageCreative {
+        width: 350px;
+        height: auto;
+    }
+    .spanTextDouble {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .imageConnected {
+        position: relative;
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .imageConnectedStyle {
+        width: 250px;
+        height: auto;
+    }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+    .spanText, .spanTextDouble {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .imageCreative { width: 280px; }
+    .imageConnectedStyle { width: 200px; }
+}
+
 @media (max-width: 480px) {
     .container {
         min-height: 675px;

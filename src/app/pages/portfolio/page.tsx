@@ -72,7 +72,7 @@ const Portfolio = () => {
                     <h1 className={styles.title}>Наши работы</h1>
                     <Image src={vector} alt={'VECTOR'} className={styles.vectorStyles} />
                 </div>
-                {width <= 500 ? (
+                {width <= 1035 ? (
                     <>
                         <div style={{ display: 'flex' }}>
                             <Image src={image1} alt={''} style={{ objectFit: 'cover' }} className={styles.img}

@@ -1,3 +1,7 @@
+.pageWrapper {
+    overflow-x: hidden;
+}
+
 .title {
     font-size: 64px;
     line-height: 76.72px;
@@ -30,9 +34,486 @@
     max-height: 80%;
 }
 
+@media (max-width: 1032px) {
+    .vectorStyles {
+        right: 100px;
+        top: 175px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .title {
+        font-size: 70px;
+        line-height: 85px;
+    }
+
+    .img {
+        width: 258.5px;
+        height: 245.2px;
+    }
+
+    .imgBlock {
+        width: 517px;
+        height: 265.7px;
+    }
+
+    .img11 {
+        width: 330px;
+        height: 216.6px;
+    }
+
+    .img12 {
+        width: 187px;
+        height: 216.6px;
+    }
+
+    .img13 {
+        width: 248.3px;
+        height: 216.6px;
+    }
+
+    .img14 {
+        width: 266.7px;
+        height: 216.6px;
+    }
+
+    .img15 {
+        width: 656px;
+        height: 277.9px;
+    }
+
+    .img16 {
+        width: 188px;
+        height: 136.9px;
+    }
+
+    .img17 {
+        width: 248.3px;
+        height: 136.9px;
+    }
+
+    .img18 {
+        width: 265.7px;
+        height: 136.9px;
+    }
+
+    .img19 {
+        width: 349.4px;
+        height: 141px;
+    }
+
+    .img20 {
+        width: 351.5px;
+        height: 141px;
+    }
+
+    .img21 {
+        width: 329px;
+        height: 202.3px;
+    }
+
+    .img22 {
+        width: 228.9px;
+        height: 202.3px;
+    }
+
+    .img23 {
+        width: 228.9px;
+        height: 202.3px;
+    }
+
+    .img24 {
+        width: 245.2px;
+        height: 202.3px;
+    }
+
+    .img25 {
+        width: 557.9px;
+        height: 175.7px;
+    }
+
+    .img26 {
+        width: 474.1px;
+        height: 175.7px;
+    }
+
+    .img27 {
+        width: 340.3px;
+        height: 167.6px;
+    }
+
+    .img28 {
+        width: 265.7px;
+        height: 167.6px;
+    }
+
+    .img29 {
+        width: 425.1px;
+        height: 167.6px;
+    }
+
+    .img30 {
+        width: 235px;
+        height: 202.3px;
+    }
+
+    .img31 {
+        width: 265.7px;
+        height: 202.3px;
+    }
+
+    .img32 {
+        width: 245.2px;
+        height: 202.3px;
+    }
+
+    .img33 {
+        width: 286.1px;
+        height: 202.3px;
+    }
+
+    .img34 {
+        width: 500.7px;
+        height: 175.7px;
+    }
+
+    .img35 {
+        width: 175.7px;
+        height: 175.7px;
+    }
+
+    .img36 {
+        width: 175.7px;
+        height: 175.7px;
+    }
+
+    .img37 {
+        width: 175.7px;
+        height: 175.7px;
+    }
+}
+
+@media (max-width: 960px) {
+    .vectorStyles {
+        right: 100px;
+        top: 175px;
+        width: 68px;
+        height: 68px;
+    }
+
+    .title {
+        font-size: 65px;
+        line-height: 78px;
+    }
+
+    .img {
+        width: 240.5px;
+        height: 228.1px;
+    }
+
+    .imgBlock {
+        width: 481px;
+        height: 247.1px;
+    }
+
+    .img11 {
+        width: 307px;
+        height: 201.5px;
+    }
+
+    .img12 {
+        width: 173.9px;
+        height: 201.5px;
+    }
+
+    .img13 {
+        width: 231px;
+        height: 201.5px;
+    }
+
+    .img14 {
+        width: 248.1px;
+        height: 201.5px;
+    }
+
+    .img15 {
+        width: 610.2px;
+        height: 258.5px;
+    }
+
+    .img16 {
+        width: 174.9px;
+        height: 127.4px;
+    }
+
+    .img17 {
+        width: 231px;
+        height: 127.4px;
+    }
+
+    .img18 {
+        width: 247.1px;
+        height: 127.4px;
+    }
+
+    .img19 {
+        width: 325.1px;
+        height: 131.2px;
+    }
+
+    .img20 {
+        width: 327px;
+        height: 131.2px;
+    }
+
+    .img21 {
+        width: 306.1px;
+        height: 188.2px;
+    }
+
+    .img22 {
+        width: 212.9px;
+        height: 188.2px;
+    }
+
+    .img23 {
+        width: 212.9px;
+        height: 188.2px;
+    }
+
+    .img24 {
+        width: 228.1px;
+        height: 188.2px;
+    }
+
+    .img25 {
+        width: 519px;
+        height: 163.5px;
+    }
+
+    .img26 {
+        width: 441px;
+        height: 163.5px;
+    }
+
+    .img27 {
+        width: 316.5px;
+        height: 155.9px;
+    }
+
+    .img28 {
+        width: 247.1px;
+        height: 155.9px;
+    }
+
+    .img29 {
+        width: 395.4px;
+        height: 155.9px;
+    }
+
+    .img30 {
+        width: 218.6px;
+        height: 188.2px;
+    }
+
+    .img31 {
+        width: 247.1px;
+        height: 188.2px;
+    }
+
+    .img32 {
+        width: 228.1px;
+        height: 188.2px;
+    }
+
+    .img33 {
+        width: 266.1px;
+        height: 188.2px;
+    }
+
+    .img34 {
+        width: 465.7px;
+        height: 163.5px;
+    }
+
+    .img35 {
+        width: 163.5px;
+        height: 163.5px;
+    }
+
+    .img36 {
+        width: 163.5px;
+        height: 163.5px;
+    }
+
+    .img37 {
+        width: 163.5px;
+        height: 163.5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vectorStyles {
+        right: 60px;
+        top: 170px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .img {
+        width: 192.4px;
+        height: 182.5px;
+    }
+
+    .imgBlock {
+        width: 384.8px;
+        height: 197.7px;
+    }
+
+    .img11 {
+        width: 245.6px;
+        height: 161.2px;
+    }
+
+    .img12 {
+        width: 139.2px;
+        height: 161.2px;
+    }
+
+    .img13 {
+        width: 184.8px;
+        height: 161.2px;
+    }
+
+    .img14 {
+        width: 198.5px;
+        height: 161.2px;
+    }
+
+    .img15 {
+        width: 488.2px;
+        height: 206.8px;
+    }
+
+    .img16 {
+        width: 139.9px;
+        height: 101.9px;
+    }
+
+    .img17 {
+        width: 184.8px;
+        height: 101.9px;
+    }
+
+    .img18 {
+        width: 197.7px;
+        height: 101.9px;
+    }
+
+    .img19 {
+        width: 260.1px;
+        height: 104.9px;
+    }
+
+    .img20 {
+        width: 261.6px;
+        height: 104.9px;
+    }
+
+    .img21 {
+        width: 244.8px;
+        height: 150.6px;
+    }
+
+    .img22 {
+        width: 170.3px;
+        height: 150.6px;
+    }
+
+    .img23 {
+        width: 170.3px;
+        height: 150.6px;
+    }
+
+    .img24 {
+        width: 182.5px;
+        height: 150.6px;
+    }
+
+    .img25 {
+        width: 415.2px;
+        height: 130.8px;
+    }
+
+    .img26 {
+        width: 352.8px;
+        height: 130.8px;
+    }
+
+    .img27 {
+        width: 253.2px;
+        height: 124.7px;
+    }
+
+    .img28 {
+        width: 197.7px;
+        height: 124.7px;
+    }
+
+    .img29 {
+        width: 316.3px;
+        height: 124.7px;
+    }
+
+    .img30 {
+        width: 174.9px;
+        height: 150.6px;
+    }
+
+    .img31 {
+        width: 197.7px;
+        height: 150.6px;
+    }
+
+    .img32 {
+        width: 182.5px;
+        height: 150.6px;
+    }
+
+    .img33 {
+        width: 212.9px;
+        height: 150.6px;
+    }
+
+    .img34 {
+        width: 372.6px;
+        height: 130.8px;
+    }
+
+    .img35 {
+        width: 130.8px;
+        height: 130.8px;
+    }
+
+    .img36 {
+        width: 130.8px;
+        height: 130.8px;
+    }
+
+    .img37 {
+        width: 130.8px;
+        height: 130.8px;
+    }
+}
+
 @media (max-width: 480px) {
     .vectorStyles {
-        right: 95px;
+        right: 120px;
         top: 142px;
         width: 25px;
         height: 25px;
@@ -350,7 +831,7 @@
 
 @media (max-width: 414px) {
     .vectorStyles {
-        right: 95px;
+        right: 100px;
         top: 142px;
         width: 25px;
         height: 25px;

@@ -25,6 +25,51 @@
     height: 142px
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .container {
+        position: relative;
+        margin-top: 60px;
+        width: 80%;
+        max-width: 700px;
+        height: 480px;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image {
+        width: 100%;
+        height: 480px;
+    }
+    .prevArrow {
+        left: -50px;
+        margin-left: 0;
+        width: 40px;
+        height: 100px;
+        z-index: 10;
+        cursor: pointer;
+        position: absolute;
+    }
+    .nextArrow {
+        right: -50px;
+        left: auto;
+        margin-right: 0;
+        width: 40px;
+        height: 100px;
+        z-index: 10;
+        cursor: pointer;
+        position: absolute;
+    }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+    .container {
+        width: 90%;
+        height: 400px;
+    }
+    .image { height: 400px; }
+    .prevArrow { left: -30px; width: 30px; height: 80px; }
+    .nextArrow { right: -30px; width: 30px; height: 80px; }
+}
+
 @media (max-width: 480px) {
     .container {
         margin-top: 259px;

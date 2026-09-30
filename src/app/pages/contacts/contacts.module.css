@@ -113,301 +113,179 @@
     color: #ffffff;
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .mainBlock {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .textPosition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .title {
+        width: 90%;
+        margin-left: 0;
+        font-size: 60px;
+        line-height: 65px;
+        text-align: center;
+    }
+    .text {
+        width: 80%;
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 24px;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contactBlockPosition {
+        position: static;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .contactBlock {
+        flex-direction: column;
+        margin: 50px auto 0;
+        align-items: center;
+    }
+    .contactInfo {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .textContacts {
+        font-size: 55px;
+        line-height: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    .socialsBlock {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .socialIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .addressBlock {
+        margin: 40px auto 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .address {
+        font-size: 55px;
+        line-height: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    .gallery {
+        margin-top: 80px;
+    }
+    .imagesPayment {
+        width: 500px;
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 480px) {
-    .imagesPayment {
-        width: 400px;
-        margin-top: 65px;
-        margin-left: 180px;
+    .mainBlock {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
     }
-    .gallery {
-        width: 320px;
+    .textPosition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
     }
     .title {
-        width: 180px;
+        width: 90%;
+        margin-left: 0;
         font-size: 38px;
         line-height: 46px;
-        margin-left: 50px;
+        text-align: center;
     }
     .text {
-        width: 327px;
-        height: 61px;
-        font-size: 11px;
-        line-height: 13px;
-        margin-left: 50px;
+        width: 90%;
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 18px;
+        height: auto;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .contactBlockPosition {
+        position: static;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .contactBlock {
+        flex-direction: column;
+        margin: 40px auto 0;
+        align-items: center;
+    }
+    .contactInfo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .textBlock {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .textContacts {
-        width: 290px;
         font-size: 43px;
         line-height: 49px;
+        width: 100%;
+        text-align: center;
     }
     .socialsBlock {
-        margin-left: -120px;
-        margin-top: 190px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .socialIcon {
+        width: 100px;
+        height: 100px;
     }
     .addressBlock {
-        width: 295px;
-        margin-left: 100px;
-        margin-top: -270px;
+        margin: 40px auto 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .address {
         font-size: 45px;
         line-height: 49px;
-    }
-    .contactBlockPosition {
-        margin-top: 240px;
-        right: 12%;
-    }
-    .mainBlock {
-        margin-top: 0;
-    }
-    .textPosition {
-        margin-left: 25px;
-    }
-    .contactBlock {
-        flex-direction: column;
-        margin-right: 0px;
-        margin-left: 100px;
-        margin-top: 400px;
-    }
-    .socialIcon {
-        width: 110px;
-        height: 110px;
-    }
-    .textBlock {
-        margin-left: 10px;
-    }
-}
-
-@media (max-width: 430px) {
-    .imagesPayment {
-        width: 400px;
-        margin-top: 65px;
-        margin-left: 180px;
+        width: 100%;
+        text-align: center;
     }
     .gallery {
-        width: 320px;
-    }
-    .title {
-        width: 180px;
-        font-size: 38px;
-        line-height: 46px;
-        margin-left: 50px;
-    }
-    .text {
-        width: 327px;
-        height: 61px;
-        font-size: 11px;
-        line-height: 13px;
-        margin-left: 50px;
-    }
-    .textContacts {
-        width: 290px;
-        font-size: 43px;
-        line-height: 49px;
-    }
-    .socialsBlock {
-        margin-left: -120px;
-        margin-top: 190px;
-    }
-    .addressBlock {
-        width: 295px;
-        margin-left: 100px;
-        margin-top: -270px;
-    }
-    .address {
-        font-size: 45px;
-        line-height: 49px;
-    }
-    .contactBlockPosition {
-        margin-top: 240px;
-        right: 12%;
-    }
-    .mainBlock {
-        margin-top: 0;
-    }
-    .textPosition {
-        margin-left: 25px;
-    }
-    .contactBlock {
-        flex-direction: column;
-        margin-right: 0px;
-        margin-left: 100px;
-        margin-top: 400px;
-    }
-    .socialIcon {
-        width: 110px;
-        height: 110px;
-    }
-    .textBlock {
-        margin-left: 10px;
-    }
-}
-
-@media (max-width: 390px) {
-    .contactBlockPosition {
-        right: 14%;
-    }
-    .addressBlock {
-        margin-left: 85px;
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .imagesPayment {
-        margin-left: 140px;
-    }
-}
-
-@media (max-width: 414px) {
-    .imagesPayment {
-        width: 400px;
-        margin-top: 65px;
-        margin-left: 155px;
-    }
-    .gallery {
-        width: 320px;
-    }
-    .title {
-        width: 180px;
-        font-size: 38px;
-        line-height: 46px;
-        margin-left: 50px;
-    }
-    .text {
-        width: 327px;
-        height: 61px;
-        font-size: 11px;
-        line-height: 13px;
-        margin-left: 50px;
-    }
-    .textContacts {
-        width: 290px;
-        font-size: 43px;
-        line-height: 49px;
-    }
-    .socialsBlock {
-        margin-left: -120px;
-        margin-top: 190px;
-    }
-    .addressBlock {
-        width: 295px;
-        margin-left: 100px;
-        margin-top: -270px;
-    }
-    .address {
-        font-size: 45px;
-        line-height: 49px;
-    }
-    .contactBlockPosition {
-        margin-top: 240px;
-        right: 17%;
-    }
-    .mainBlock {
-        margin-top: 0;
-    }
-    .textPosition {
-        margin-left: 25px;
-    }
-    .contactBlock {
-        flex-direction: column;
-        margin-right: 0px;
-        margin-left: 100px;
-        margin-top: 400px;
-    }
-    .socialIcon {
-        width: 110px;
-        height: 110px;
-    }
-    .textBlock {
-        margin-left: 10px;
-    }
-}
-
-@media (max-width: 390px) {
-    .contactBlockPosition {
-        right: 14%;
-    }
-    .addressBlock {
-        margin-left: 85px;
-    }
-    .imagesPayment {
-        margin-left: 140px;
-    }
-}
-
-@media (max-width: 375px) {
-    .imagesPayment {
-        width: 400px;
-        margin-top: 65px;
-        margin-left: 115px;
-    }
-    .gallery {
-        width: 320px;
-    }
-    .title {
-        width: 180px;
-        font-size: 38px;
-        line-height: 46px;
-        margin-left: 40px;
-    }
-    .text {
-        width: 327px;
-        height: 61px;
-        font-size: 11px;
-        line-height: 13px;
-        margin-left: 40px;
-    }
-    .textContacts {
-        width: 290px;
-        font-size: 43px;
-        line-height: 49px;
-    }
-    .socialsBlock {
-        margin-left: -120px;
-        margin-top: 190px;
-    }
-    .addressBlock {
-        width: 295px;
-        margin-left: 80px;
-        margin-top: -270px;
-    }
-    .address {
-        font-size: 45px;
-        line-height: 49px;
-    }
-    .contactBlockPosition {
-        margin-top: 240px;
-        right: 12%;
-    }
-    .mainBlock {
-        margin-top: 0;
-    }
-    .textPosition {
-        margin-left: 25px;
-    }
-    .contactBlock {
-        flex-direction: column;
-        margin-right: 0px;
-        margin-left: 100px;
-        margin-top: 400px;
-    }
-    .socialIcon {
-        width: 110px;
-        height: 110px;
-    }
-    .textBlock {
-        margin-left: 30px;
-    }
-}
-
-@media (max-width: 360px) {
-    .contactBlockPosition {
-        right: 11%;
-    }
-    .textPosition {
-        margin-left: 15px;
-    }
-    .textBlock {
-        margin-left: 25px;
-    }
-    .addressBlock {
-        margin-left: 70px;
+        width: 90%;
+        max-width: 400px;
+        margin-left: 0;
     }
 }

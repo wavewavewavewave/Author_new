@@ -105,3 +105,13 @@ body {
         /* overflow-x: hidden; */
     }
 }
+
+@media screen and (max-width: 1032px) and (min-width: 481px) {
+    body {
+        zoom: 1 !important;
+        width: 100% !important;
+    }
+    html {
+        overflow-x: hidden;
+    }
+}

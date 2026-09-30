@@ -30,6 +30,22 @@
     height: 170px;
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+  .container { min-height: 480px; }
+  .mainText { padding-top: 26.9px; font-size: 47.8px; line-height: 57.5px; }
+  .itemBox img { height: 91.4px; }
+}
+@media (max-width: 960px) and (min-width: 481px) {
+  .container { min-height: 446.5px; }
+  .mainText { padding-top: 25px; font-size: 44.5px; line-height: 53.5px; }
+  .itemBox img { height: 85px; }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  .container { min-height: 357.2px; }
+  .mainText { padding-top: 20px; font-size: 35.6px; line-height: 42.8px; }
+  .itemBox img { height: 68px; }
+}
+
 @media (max-width: 480px) {
     .mainText {
         font-size: 27px;

@@ -168,36 +168,202 @@
     opacity: 0.9;
 }
 
-/* Планшеты и компактные ноутбуки */
-@media (max-width: 1100px) {
+
+
+/* Мобильная версия (в точности как на скриншоте) */
+@media (max-width: 1032px) and (min-width: 481px) {
     .container {
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
-    .contactBlock {
+    /* 1. Блок «Готовы с нами поработать? / Жми, чего ждешь?» */
+    .preFooterBlock {
+        display: block;
+        position: relative;
+        width: 100%;
+        max-width: 580px;
+        margin: 0 auto;
+        padding: 0 24px 0 49px;
+        box-sizing: border-box;
+    }
+
+    .infoBlock {
+        font-family: custom-font, sans-serif;
+        font-size: clamp(38px, 7vw, 65px);
+        font-weight: 700;
+        line-height: 0.98;
+        letter-spacing: -0.5px;
+        color: #000;
+        text-align: left;
+    }
+
+    .actionPrompt {
+        position: absolute;
+        right: 100px;
+        top: 2px;
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .spanStyle {
+        font-family: Moloko, sans-serif;
+        font-size: clamp(14px, 2vw, 20px);
+        line-height: 14px;
+        color: #6B6B6B;
+        white-space: nowrap;
+    }
+
+    .vectorStyle {
+        width: clamp(60px, 10vw, 95px);
+        height: auto;
+        display: block;
+    }
+
+    /* 2. Разделительная линия и логотип */
+    .dividerBlock {
+        margin-top: 45px;
+        margin-bottom: 30px;
+        position: relative;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        gap: 25px;
-        margin: 40px auto 25px auto;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .imageContainer {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        min-height: 48px;
+    }
+
+    .styleLine {
+        grid-area: 1 / 1;
+        width: 100%;
+        min-width: 330px;
+        max-width: 900px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        grid-area: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .styleLogo {
+        width: clamp(100px, 15vw, 160px);
+        height: auto;
+        display: block;
+    }
+
+    /* 3. Контакты и соцсети на мобильной: в одну строку с аккуратным отступом */
+    .contactBlock {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+        box-sizing: border-box;
     }
 
     .contactInfo {
-        text-align: center;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .textBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .textEmail {
+        font-family: Bebas, sans-serif;
+        font-size: clamp(22px, 5vw, 45px);
+        line-height: 1.05;
+        color: #000;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+    }
+
+    .textPhone {
+        font-family: Bebas, sans-serif;
+        font-size: clamp(22px, 5vw, 45px);
+        line-height: 1.05;
+        color: #0022FE;
+        text-decoration: underline;
+        text-decoration-thickness: 2.5px;
+        text-underline-offset: 4px;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
     }
 
     .socialGroup {
-        justify-self: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    .imageInst,
+    .imageTikTok {
+        width: clamp(52px, 10vw, 90px);
+        height: clamp(52px, 10vw, 90px);
+        display: block;
     }
 
     .buttonWrapper {
-        justify-self: center;
+        display: none !important;
+    }
+
+    /* 4. Виды оплат и политика конфиденциальности */
+    .gallery {
+        margin: 35px auto 14px auto;
+        padding: 0 16px;
+    }
+
+    .imagePayment {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .privacyBlock {
+        padding-bottom: 25px;
+        margin-top: 4px;
+    }
+
+    .privacyLink {
+        font-size: 11px;
+    }
+}
+
+/* Корректировка для небольших планшетов (iPad Mini) */
+@media (max-width: 820px) and (min-width: 481px) {
+    .actionPrompt {
+        right: 135px;
     }
 }
 
 /* Мобильная версия (в точности как на скриншоте) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container {
         margin-top: 40px;
     }

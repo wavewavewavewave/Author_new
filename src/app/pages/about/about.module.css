@@ -82,6 +82,109 @@
     /*width: 500px;*/
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .posterStyle {
+        width: 512px;
+        height: 800px;
+        left: 0;
+    }
+
+    .textBlock {
+        width: 100%;
+        height: auto;
+        margin-top: 650px;
+        position: absolute;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+    .vectorStyle {
+        width: 43px;
+        height: 54px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .styleText {
+        font-size: 16px;
+        font-weight: 400;
+        display: inline-block;
+        line-height: 22px;
+        margin-bottom: 32px;
+        color: white;
+        text-align: right;
+        width: 85%;
+        align-self: flex-end;
+        margin-right: 5%;
+    }
+
+    .block {
+        margin-top: -650px;
+        margin-left: 0;
+        padding-bottom: 550px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .textTest {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .colorTextBlock {
+        position: absolute;
+        top: -1816px;
+        margin-left: 0;
+        font-size: 12px;
+        z-index: 0;
+        width: 100%;
+    }
+
+    .textStyle {
+        left: 0;
+    }
+
+    .text1 {
+        transform: rotate(-90deg);
+        width: 480px;
+        top: 2240px;
+        margin-left: calc(90vw - 240px);
+    }
+
+    .text2 {
+        transform: rotate(-90deg);
+        width: 800px;
+        margin-left: calc(92.5vw - 400px);
+        top: 2080px;
+    }
+
+    .text3 {
+        transform: rotate(-90deg);
+        width: 800px;
+        margin-left: calc(95vw - 400px);
+        top: 2080px;
+    }
+
+    .container {
+        height: 1800px;
+        background-color: black;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .block {
+        padding-bottom: 475px;
+    }
+}
+
 @media (max-width: 480px) {
     .posterStyle {
         width: 320px;
@@ -117,7 +220,10 @@
 
     .block {
         margin-top: -415px;
-        margin-left: 30px;
+        margin-left: -30vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
         padding-bottom: 350px;
     }
 
@@ -208,7 +314,10 @@
 
     .block {
         margin-top: -415px;
-        margin-left: 30px;
+        margin-left: -30vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
         padding-bottom: 350px;
     }
 
@@ -300,7 +409,10 @@
 
     .block {
         margin-top: -400px;
-        margin-left: 30px;
+        margin-left: -21vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
         padding-bottom: 380px;
     }
 
@@ -374,7 +486,10 @@
     }
 
     .block {
-        margin-left: 60px;
+        margin-left: -16vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     .text2 {
@@ -431,7 +546,10 @@
 
     .block {
         margin-top: -415px;
-        margin-left: 70px;
+        margin-left: -18vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
         padding-bottom: 350px;
     }
 
@@ -485,6 +603,13 @@
         left: 15%;
     }
 
+    .block {
+        margin-left: -15vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
     .text1 {
         margin-left: 105px;
     }
@@ -495,5 +620,17 @@
 
     .text3 {
         margin-left: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block {
+        position: relative !important;
+    }
+
+    .vectorStyle {
+        position: absolute !important;
+        left: 50% !important;
+        margin-left: 80px !important;
     }
 }

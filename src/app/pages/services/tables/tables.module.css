@@ -1,6 +1,6 @@
 .container_page {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     padding-bottom: 50px;
     position: relative;
 }
@@ -14,6 +14,20 @@
 }
 
 
+
+@media (max-width: 1032px) and (min-width: 481px) {
+    .container_boxes {
+        margin-left: 0px;
+    }
+    .title {
+        font-size: 44px;
+        line-height: 52px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+    }
+}
 @media (max-width: 480px) {
     .container_boxes {
         margin-left: 0px;

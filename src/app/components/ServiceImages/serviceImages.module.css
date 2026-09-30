@@ -62,6 +62,55 @@
     height: 300px;
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .boxes_block {
+        justify-content: center;
+    }
+    .box {
+        width: 300px;
+        height: 280px;
+    }
+    .imageBlock, .imageBlockEnter {
+        width: 300px;
+        height: 280px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 24px;
+        width: 250px;
+    }
+    .no_background {
+        bottom: -100px;
+        right: 30px;
+        height: auto;
+    }
+    .contactBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .questionsTitle {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 600;
+        color: rgba(123, 75, 236, 1);
+    }
+    .socialIconsWrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 0px; /* Icons will be flush or very close */
+    }
+    .buttonSocial {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0 8px; /* Slight gap between icons */
+        cursor: pointer;
+    }
+}
+
 @media (max-width: 480px) {
     .boxes_block {
         margin-top: -15px;

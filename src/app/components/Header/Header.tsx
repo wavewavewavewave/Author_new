@@ -29,11 +29,11 @@ const Header = ({services, clientPage, contactsPage}: any) => {
         <header className="header">
             <nav className="nav container">
                 <Logo services={services} clientPage={clientPage}/>
-                <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} style={{zIndex: '999'}} id="nav-menu">
+                <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} style={{zIndex: '9999'}} id="nav-menu">
                     <Nav services={services} clientPage={clientPage} contactsPage={contactsPage}/>
                 </div>
                 {showMenu === true ? (
-                    <div className="nav__toggle" id="nav-toggle" onClick={closeMenu} style={{zIndex: '1000'}} >
+                    <div className="nav__toggle" id="nav-toggle" onClick={closeMenu} style={{zIndex: '10000'}} >
                         <Image src={close} alt={'Закрыть'} color={services === true ? 'turquoise' : 'white'}
                                style={{width: '80px', height: '40px', marginRight: '10px'}}/>
                     </div>

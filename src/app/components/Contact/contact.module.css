@@ -102,3 +102,9 @@
 .closeIcon:hover {
     z-index: auto;
 }
+
+@media (max-width: 1032px) and (min-width: 481px) {
+    .contact_block {
+        bottom: -200px; /* Reduced from -400px but still below the page to leave room for the cat */
+    }
+}

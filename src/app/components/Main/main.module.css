@@ -2,7 +2,10 @@
     width: 100%;
     color: white
 }
-.h1, .h2, .h3 {
+
+.h1,
+.h2,
+.h3 {
     color: #FFF;
     font-style: normal;
     font-size: 89.35px;
@@ -30,15 +33,18 @@
     left: 320px;
     width: 250px;
 }
+
 .text {
     line-height: 25px;
     font-size: 21px;
     font-weight: 400;
 }
+
 .container_text {
     position: absolute;
     margin-top: -70px;
 }
+
 .button {
     background-color: #000;
     color: #fff;
@@ -55,6 +61,7 @@
     width: 409px;
     height: 64px;
 }
+
 .button:hover {
     background-color: transparent;
     color: turquoise;
@@ -79,36 +86,156 @@
     z-index: -1
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+
+    .hand_one,
+    .hand_two {
+        display: none;
+    }
+
+    .textBlock {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .h1,
+    .h2,
+    .h3 {
+        font-size: 80px;
+        margin-left: 0;
+    }
+
+    .h2 {
+        margin-top: -50px;
+    }
+
+    .h3 {
+        margin-top: -55px;
+    }
+
+    .image {
+        position: absolute;
+        top: 255px;
+        left: 50%;
+        transform: translateX(calc(-50% - 115px));
+        width: 230px;
+    }
+
+    .container_text {
+        position: relative;
+        margin-top: 40px;
+        left: 0;
+        width: auto;
+    }
+
+    .text {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .button {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 380px;
+        height: 64px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .textBlock {
+        margin-top: 120px;
+    }
+
+    .h1,
+    .h2,
+    .h3 {
+        font-size: 60px;
+    }
+
+    .h2 {
+        margin-top: -35px;
+    }
+
+    .h3 {
+        margin-top: -40px;
+    }
+
+    .image {
+        position: absolute;
+        top: 185px;
+        left: 52%;
+        transform: translateX(calc(-50% - 85px));
+        width: 170px;
+    }
+
+    .text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .button {
+        margin-top: 40px;
+        width: 340px;
+        height: 54px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}
+
 @media (max-width: 480px) {
     .hand_one {
         display: none;
     }
+
     .hand_two {
         display: none;
     }
+
     .textBlock {
         width: 252px;
         height: 95px;
         margin-left: 20px;
         margin-top: 120px;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         color: #FFF;
         font-style: normal;
         font-size: 35px;
         font-weight: 400;
         margin-left: 92px;
     }
+
     .container_text {
         position: absolute;
         margin-top: 130px;
     }
+
     .h2 {
         margin-top: -20px;
     }
+
     .h3 {
         margin-top: -30px;
     }
+
     .button {
         font-weight: 400;
         font-size: 14px;
@@ -120,17 +247,20 @@
         border-radius: 38px;
         border-color: black;
     }
+
     .image {
         position: absolute;
         top: 301px;
         left: 103px;
         width: 100px;
     }
+
     .container_text {
         margin-top: 20px;
         width: 270px;
         left: 128px;
     }
+
     .text {
         line-height: 16px;
         font-size: 14px;
@@ -142,32 +272,41 @@
     .hand_one {
         display: none;
     }
+
     .hand_two {
         display: none;
     }
+
     .textBlock {
         width: 252px;
         height: 95px;
         margin-left: 20px;
         margin-top: 120px;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         color: #FFF;
         font-style: normal;
         font-size: 35px;
         font-weight: 400;
         margin-left: 92px;
     }
+
     .container_text {
         position: absolute;
         margin-top: 130px;
     }
+
     .h2 {
         margin-top: -20px;
     }
+
     .h3 {
         margin-top: -30px;
     }
+
     .button {
         font-weight: 400;
         font-size: 14px;
@@ -179,17 +318,20 @@
         border-radius: 38px;
         border-color: black;
     }
+
     .image {
         position: absolute;
         top: 301px;
         left: 103px;
         width: 100px;
     }
+
     .container_text {
         margin-top: 20px;
         width: 270px;
         left: 128px;
     }
+
     .text {
         line-height: 16px;
         font-size: 14px;
@@ -201,32 +343,41 @@
     .hand_one {
         display: none;
     }
+
     .hand_two {
         display: none;
     }
+
     .textBlock {
         width: 252px;
         height: 95px;
         margin-left: 20px;
         margin-top: 120px;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         color: #FFF;
         font-style: normal;
         font-size: 35px;
         font-weight: 400;
         margin-left: 85px;
     }
+
     .container_text {
         position: absolute;
         margin-top: 130px;
     }
+
     .h2 {
         margin-top: -35px;
     }
+
     .h3 {
         margin-top: -35px;
     }
+
     .button {
         font-weight: 400;
         font-size: 17px;
@@ -236,17 +387,20 @@
         margin-top: 170px;
         margin-left: 70px;
     }
+
     .image {
         position: absolute;
         top: 283px;
         left: 96px;
         width: 100px;
     }
+
     .container_text {
         margin-top: 20px;
         width: 270px;
         left: 110px;
     }
+
     .text {
         line-height: 16px;
         font-size: 14px;
@@ -261,29 +415,37 @@
         margin-left: -20px;
         margin-top: 120px;
     }
+
     .container_text {
         left: 100px;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         color: #FFF;
         font-style: normal;
         font-size: 38px;
         font-weight: 400;
         margin-left: 85px;
     }
+
     .text {
         line-height: 20px;
         font-size: 18px;
         font-weight: 400;
     }
+
     .container_text {
         margin-top: 20px;
         width: 380px;
         left: 70px;
     }
+
     .button {
         margin-left: 88px;
     }
+
     .image {
         top: 295px;
         left: 65px;
@@ -294,32 +456,41 @@
     .hand_one {
         display: none;
     }
+
     .hand_two {
         display: none;
     }
+
     .textBlock {
         width: 252px;
         height: 95px;
         margin-left: 20px;
         margin-top: 120px;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         color: #FFF;
         font-style: normal;
         font-size: 25px;
         font-weight: 400;
         margin-left: 56px;
     }
+
     .container_text {
         position: absolute;
         margin-top: 130px;
     }
+
     .h2 {
         margin-top: -20px;
     }
+
     .h3 {
         margin-top: -15px;
     }
+
     .button {
         font-weight: 400;
         font-size: 14px;
@@ -331,23 +502,29 @@
         border-radius: 38px;
         border-color: black;
     }
+
     .image {
         position: absolute;
         top: 293px;
         left: 83px;
         width: 85px;
     }
+
     .container_text {
         margin-top: 20px;
         width: 270px;
         left: 98px;
     }
+
     .text {
         line-height: 16px;
         font-size: 14px;
         font-weight: 400;
     }
-    .h1, .h2, .h3 {
+
+    .h1,
+    .h2,
+    .h3 {
         font-size: 30px;
         margin-left: 70px;
     }

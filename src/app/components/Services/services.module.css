@@ -40,6 +40,25 @@
     margin-top: 30px;
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+  .mainText { font-size: 47.8px; line-height: 57.5px; }
+  .gallery { margin-left: 64.5px; }
+  .itemBox { width: 134.4px; height: 134.4px; }
+  .item:nth-child(7) { margin-top: 16.1px; }
+}
+@media (max-width: 960px) and (min-width: 481px) {
+  .mainText { font-size: 44.5px; line-height: 53.5px; }
+  .gallery { margin-left: 60px; }
+  .itemBox { width: 125px; height: 125px; }
+  .item:nth-child(7) { margin-top: 15px; }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  .mainText { font-size: 35.6px; line-height: 42.8px; }
+  .gallery { margin-left: 48px; }
+  .itemBox { width: 100px; height: 100px; }
+  .item:nth-child(7) { margin-top: 12px; }
+}
+
 @media (max-width: 480px) {
     .mainText {
         font-size: 27px;

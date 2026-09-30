@@ -20,6 +20,7 @@
 .DS_Store
 *.pem
 out.zip
+scratch/
 
 # debug
 npm-debug.log*

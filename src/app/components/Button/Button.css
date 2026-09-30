@@ -50,6 +50,18 @@
     height: 100%;
 }
 
+@media (max-width: 1032px) and (min-width: 481px) {
+    .btn.btn-primary {
+        font-size: 24px;
+        z-index: 0;
+        font-family: inherit;
+    }
+    .btn-primary {
+        width: 400px;
+        height: 80px;
+    }
+}
+
 @media (max-width: 480px) {
     .btn.btn-primary {
         font-size: 16px;
